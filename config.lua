@@ -15,6 +15,6 @@ Config.RangeText = {
     changePositionOnlyForDriver = true,
 }
 
-Config.NativeAduioActivated = true
+Config.NativeAduioActivated = false
 
 Config.MuteKey = 'M'

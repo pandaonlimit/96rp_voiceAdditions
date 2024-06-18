@@ -1,10 +1,9 @@
-window.onload = function(){
+window.addEventListener('load', function () {
     var muteInfo = document.getElementById('muteInfo');
     var rangeInfo = document.getElementById('rangeInfo');
     var container = document.getElementById('container');
     var meters = document.getElementById('meters');
     window.addEventListener('message', function(event) {
-        console.log(event.data.range)
         if (event.data.isMuted != null) {
             if(event.data.isMuted) {
                 muteInfo.style.fontSize = "3vh";
@@ -14,7 +13,6 @@ window.onload = function(){
             }
         }
         if(event.data.range != null) {
-            console.log(rangeInfo.style.fontSize)
             if (rangeInfo.style.fontSize == "0px") {
                 rangeInfo.style.fontSize = "1.5vh"
             }
@@ -29,4 +27,4 @@ window.onload = function(){
             }
         }
     });
-}
+});
