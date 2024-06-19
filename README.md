@@ -2,7 +2,8 @@
 <p>
   This resource offers new options missing in pma-voice!<br>
   Everyone can use and modify this resource for free!<br>
-  Credits would be cool ofc :)
+  Credits would be cool ofc :)<br>
+  This is a standalone resource btw
 </p>
 <p>
   Feel free to join our discord and support us if u want to :)<br>
